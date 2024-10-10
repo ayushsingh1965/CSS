@@ -1,0 +1,23 @@
+body{
+    padding: 10%;
+    font-size: 2rem;
+}
+
+a{
+    color: hsl(207, 44%, 49%);
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover , a:focus{
+    color: hsl(207, 44%, 49%, 0.8);
+    background: gold;
+}
+
+a:active{
+    color: red;
+}
+
+/*  we should take care that the specificity of the tags */
